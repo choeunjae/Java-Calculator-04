@@ -40,7 +40,15 @@ public class Calculator {
         return result;
     }
 
-    public void displayResult(String operator){
-        System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
+    public int factorial(){
+        return 0;
     }
+
+    public void displayResult(String operator) {
+        System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
+        }
+
+    public void displayResultFactorial(String operator){
+        System.out.println(num1 + " " + operator + " = " + result);
+        }
 }

@@ -11,5 +11,10 @@ public class Main {
         calc_mul.setNumbers(10, 2);
         calc_mul.multiply();
         calc_mul.displayResult("*");
+
+        ScientificCalculator calc_fact = new ScientificCalculator();
+        calc_fact.num1 = 5;
+        calc_fact.factorial();
+        calc_fact.displayResultFactorial("!");
     }
 }
