@@ -16,5 +16,10 @@ public class Main {
         calc_fact.num1 = 5;
         calc_fact.factorial();
         calc_fact.displayResultFactorial("!");
+
+        EngineeringCalculator calc_pi = new EngineeringCalculator();
+        calc_pi.setNumbers(5);
+        calc_pi.calcCircle();
+        calc_pi.displayCircle();
     }
 }
